@@ -1,0 +1,28 @@
+.cartScreen{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.cartLeft h2 {
+    text-align: center;
+    padding-top: 5%;
+    color: red;
+
+}
+.cartRight{
+    background: #fff;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
+    width: 40%;
+}
+.cartInfo{
+    margin: 5%;
+}
+.cartInfo >.subTotal,p{
+    text-align: end;
+    font-size: 20px;
+}
+.cartInfo > .totalPrice{
+    font-weight: bold;
+    font-size: 22px;
+}

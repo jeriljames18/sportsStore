@@ -1,0 +1,62 @@
+.product{
+    margin: 5%;
+    box-shadow: 3px 5px rgba(226, 215, 215, 0.5);
+}
+.product> img{
+    width: 100%;
+    height: 300px;
+}
+.productInfo{
+    margin: 10% 5% 0% 5%;
+}
+.productInfo > .infoName{
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+}
+.productInfo > .infoPrice{
+    text-align: center;
+    margin-top: 5%;
+    font-weight: 500;
+    font-size: 18px;
+    color: coral;
+}
+.productInfo >.colorDiv,.categoryDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.productInfo >.colorDiv>.colorP,.infoColor{
+    padding: 2%;
+    font-size: 18px;
+}
+.productInfo >.categoryDiv{
+    padding-top: 8%;
+}
+.productInfo >.infoDescription{
+    display: inline-block;
+    padding-top: 5%;
+    width: 100%;
+    color: rgb(110, 99, 99);
+}
+.infoButton{
+    display: block;
+    background-color: rgb(43, 40, 40);
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+    text-align: center;
+    color: white;
+    margin-top: 7%;
+    height: 40px;
+    margin-bottom: 7%;
+    text-decoration: none;
+    border-radius: 10px;
+    font-size: 20px;
+    padding-top: 3%;
+}
+.infoButton:hover{
+    background-color: red;
+}

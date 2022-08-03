@@ -1,0 +1,72 @@
+.productScreen{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    justify-items: center;
+
+    
+}
+.screenleft{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 0.5;
+}
+.screenleft > img{
+    width: 50%;
+}
+.screenleft > .infoName{
+    font-weight: 700;
+    font-size: 22px;
+}
+.screenleft > .infoPrice{
+    font-size: 20px;
+    font-weight: bold;
+    color: brown;
+}
+.infoColor{
+    font-size: 20px;
+}
+.infoCategory{
+    font-weight: 500;
+    font-size: 20px;
+    padding: 2%;
+}
+.infoDescription{
+    text-align: justify;
+    padding-left: 10%;
+    padding-right: 10%;
+    
+}
+.rightInfo {
+    width: 350px;
+    margin: 2rem;
+    padding: 10%;
+    background: #fff;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
+  }
+  
+  .rightInfo p {
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+ button {
+    grid-column: 1/-1;
+    width: 100%;
+    padding: 10px 16px;
+    background: #171717;
+    color: #f4f4f4;
+    border: 1px solid #171717;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+ button:hover{
+      background-color: red;
+      color: white;
+  }
+  .priceClass{
+      font-size: 25px;
+      font-weight: bold;
+  }

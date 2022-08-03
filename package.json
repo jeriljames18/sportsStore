@@ -1,0 +1,33 @@
+{
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mongoose": "^6.5.0"
+  },
+  "name": "individual-final-project-jeriljames18",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "server": "nodemon backend/server.js",
+    "client": "npm start --prefix sportstore",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "data:import": "node backend/seederScript.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/langara-wmdd/individual-final-project-jeriljames18.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/langara-wmdd/individual-final-project-jeriljames18/issues"
+  },
+  "homepage": "https://github.com/langara-wmdd/individual-final-project-jeriljames18#readme",
+  "description": "",
+  "devDependencies": {
+    "concurrently": "^7.3.0",
+    "nodemon": "^2.0.19"
+  }
+}
